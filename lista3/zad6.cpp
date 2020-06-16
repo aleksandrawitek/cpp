@@ -1,10 +1,15 @@
 #include <iostream>
+
 using namespace std;
 
-int main()
-{
-	double tab[10];
-	double x;
-	cout << &x << "\t" << &tab[-2]<< "\n";
+void argumenty(int argc, char* argv[]) {
+	cout << "Liczba argumentow: " << argc << endl;
+	for (int i = 0; i < argc; ++i) {
+		cout << "Element numer " << i << " wiersza polecen ma wartosc: " << argv[i] << endl;
+	}
+}
+
+int main(int argc, char* argv[]) {
+	argumenty(argc, argv);
 	return 0;
 }
