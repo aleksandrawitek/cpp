@@ -1,0 +1,12 @@
+
+a) najwyzszy priorytet - '++'
+   najnizszy priorytet - '='
+
+b) 'dokąd++' - wczytywanie kolejnych elementow tablicy
+   'skąd++' -  wczytywanie do kolejnych znakow stringu
+
+c) pobieranie wartości danego wskaznika
+
+d) kolejne wartości z argumentu.
+
+e) petla bedzie dzialac dopoki wyrazenie arytemtyczne nie przyniesie wartosci 0 (0 == false)
